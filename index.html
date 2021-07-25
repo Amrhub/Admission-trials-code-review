@@ -4,22 +4,25 @@
     <meta charset="UTF-8">
     <title>Fork Me! FCC: Test Suite Template</title>
     <link rel="stylesheet" href="css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1"> 
   </head>
 
   <body>
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
     
+    <nav id="navbar">
+      <header>HTML&CSS Documentation</header>
+     <ul>
+       <li><a href="#HTML_Introduction" class="nav-link">HTML Introduction</a></li>  
+       <li><a href="#CSS_Introduction" class="nav-link">CSS Introduction</a></li>  
+       <li><a href="#HTML_document_type_declaration" class="nav-link">HTML document type declaration</a></li>  
+       <li><a href="#HTML_Application" class="nav-link">HTML Application</a></li>  
+       <li><a href="#CSS_Advantages" class="nav-link">CSS Advantages</a></li>  
+    </ul> 
+    </nav>
+
     <main id="main-doc">
-      <nav id="navbar">
-        <header>HTML&CSS Documentation</header>
-       <ul>
-         <li><a href="#HTML_Introduction" class="nav-link">HTML Introduction</a></li>  
-         <li><a href="#CSS_Introduction" class="nav-link">CSS Introduction</a></li>  
-         <li><a href="#HTML_document_type_declaration" class="nav-link">HTML document type declaration</a></li>  
-         <li><a href="#HTML_Application" class="nav-link">HTML Application</a></li>  
-         <li><a href="#CSS_Advantages" class="nav-link">CSS Advantages</a></li>  
-      </ul> 
-      </nav>
+      
       <section class="main-section" id="HTML_Introduction">
         <header>HTML Introduction</header>
          <p>The HyperText Markup Language, or HTML is the standard markup language for documents designed to be displayed in a web browser. It can be assisted by technologies such as Cascading Style Sheets (CSS) and scripting languages such as JavaScript.
@@ -49,9 +52,11 @@ The original purpose of the doctype was to enable parsing and validation of HTML
 
 HTML5 does not define a DTD; therefore, in HTML5 the doctype declaration is simpler and shorter:[81]
         </p>
-        <span><code> &#60!DOCTYPE html&#62 </code></span>
-        <p>An example of an HTML 4 doctype</p>
-        <span><code> &#60!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "https://www.w3.org/TR/html4/strict.dtd"&#62 </code></span>
+        <p>
+        <code> &#60!DOCTYPE html&#62 </code><br><br>
+        An example of an HTML 4 doctype<br>
+        <code> &#60!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN"&#62 </code>
+        </p>
       </section>
 
       <section class="main-section" id="HTML_Application">
@@ -60,7 +65,7 @@ HTML5 does not define a DTD; therefore, in HTML5 the doctype declaration is simp
       </section>
       
       <section class="main-section" id="CSS_Advantages">
-        <header>CSS Advantages</header> z
+        <header>CSS Advantages</header> 
         <ul>
           <li class="subheaders">Separation of content from presentation
             <p>CSS facilitates publication of content in multiple presentation formats based on nominal parameters. Nominal parameters include explicit user preferences, different web browsers, the type of device being used to view the content (a desktop computer or mobile device), the geographic location of the user and many other variables.</p>
